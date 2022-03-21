@@ -1,0 +1,193 @@
+import { makeStyles } from '@material-ui/core/styles';
+import Fundo from '../../../assets/fundo/fundobaselogin.jpg';
+
+export default makeStyles((theme) => ({
+  root: {
+    '& label.Mui-focused': {
+      color: ' #D0D5DD ',
+    },
+    '& .MuiInput-underline:after': {
+      borderBottomColor: '#D0D5DD',
+    },
+    '& .MuiOutlinedInput-root': {
+      '& fieldset': {
+        borderColor: 'none',
+        border: '1px solid #D0D5DD',
+        boxShadow: '0px 1px 2px rgba(16, 24, 40, 0.05)',
+        width: '368px',
+        height: '44px',
+        marginLeft: '0px',
+        marginTop: '6px',
+      },
+      '&:hover fieldset': {
+        borderColor: ' #D0D5DD ',
+      },
+      '&.Mui-focused fieldset': {
+        borderColor: ' #D0D5DD ',
+      },
+    },
+    '& .MuiOutlinedInput-input': {
+      fontFamily: 'Nunito, sans-serif',
+      fontStyle: 'normal',
+      fontWeight: '300',
+      fontSize: '16px',
+    },
+    height: '100vh',
+    display: 'flex',
+    alignItems: 'center',
+    fontFamily: 'Montserrat, sans-serif',
+  },
+
+  element: {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+
+  submit: {
+    margin: theme.spacing(3, 0, 2),
+    backgroundColor: '#DA0175',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '160px',
+    height: '33px',
+    borderRadius: '10px',
+    color: '#F8F8F9',
+    '&:hover': {
+      backgroundColor: '#0E8750',
+    },
+  },
+
+  button: {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+
+    marginTop: '40px',
+    fontFamily: 'Nunito, sans-serif',
+    fontStyle: 'normal',
+    fontWeight: 'normal',
+    fontSize: '18px',
+    lineHeight: '25px',
+  },
+  linkPrincipal: {
+    display: 'flex',
+  },
+  link: {
+    display: 'flex',
+    fontFamily: 'Nunito, sans-serif',
+    fontStyle: 'normal',
+    fontWeight: '600',
+    fontSize: '14px',
+    lineHeight: '20px',
+    color: '#3F3F55',
+  },
+  login: {
+    color: '#DA0175',
+    marginLeft: '6px',
+    fontFamily: 'Nunito, sans-serif',
+    fontStyle: 'normal',
+    fontWeight: '600',
+    fontSize: '14px',
+    lineHeight: '20px',
+  },
+  cardLeft: {
+    display: 'flex',
+    justifyContent: 'center',
+    width: '940px',
+    height: '50%',
+  },
+  status: {
+    width: '500px',
+    height: '100vh',
+    margin: '0',
+    background: `url(${Fundo})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+  },
+  Paper: {
+    height: '100%',
+  },
+  txtForm: {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'flex-start',
+    fontFamily: 'Nunito, sans-serif',
+    fontStyle: 'normal',
+    fontWeight: '600',
+    fontSize: '14px',
+    lineHeight: '20px',
+    color: '#344054',
+  },
+  inputForm: {
+    width: '368px',
+    height: '44px',
+    background: '#FFFFFF',
+    border: '1px solid #D0D5DD',
+    boxSizing: 'border-box',
+    boxShadow: '0px 1px 2px rgba(16, 24, 40, 0.05)',
+    borderRadius: '8px',
+  },
+  margin: {
+    fontFamily: 'Inter',
+    fontStyle: 'normal',
+    fontWeight: '300',
+    fontSize: '14px',
+    lineHeight: '24px',
+    marginTop: '6px',
+    color: '#667085',
+  },
+  h1: {
+    fontFamily: 'Montserrat, sans-serif',
+    fontStyle: 'normal',
+    fontWeight: 700,
+    fontSize: '24px',
+    lineHeight: '130%',
+    color: '#343447',
+  },
+  titulo: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  statusTexto: {
+    fontFamily: 'Montserrat, sans-serif',
+    fontStyle: 'normal',
+    fontWeight: '600',
+    fontSize: '24px',
+    lineHeight: '130%',
+    textAlign: 'center',
+    color: '#034A2A',
+    marginLeft: '56px',
+    marginTop: '100px',
+  },
+  linkCadastro: {
+    fontFamily: 'Nunito, sans-serif',
+    fontStyle: 'normal',
+    fontWeight: '600',
+    fontSize: '14px',
+    lineHeight: '20px',
+    color: '#DA0175',
+    marginLeft: '5px',
+  },
+  cabecalhoSenha: {
+    display: 'flex',
+  },
+  esqueceuSenha: {
+    display: 'flex',
+    marginLeft: '205px',
+    fontFamily: 'Nunito, sans-serif',
+    fontStyle: 'normal',
+    fontWeight: '600',
+    fontSize: '14px',
+    lineHeight: '20px',
+    marginTop: '20px',
+    color: '#DA0175',
+  },
+  labelSenhaEmail: {
+    marginTop: '20px',
+  },
+}));
