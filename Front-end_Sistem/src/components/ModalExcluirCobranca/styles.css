@@ -1,0 +1,72 @@
+.fundoModal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  min-height: 100vh;
+
+  background-color: rgba(0, 0, 0, .7);
+  z-index: 4;
+}
+
+.cardExcluirCobranca {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+
+  font-family: 'Nunito';
+  color: #3F3F55;
+
+  padding: 40px 50px;  
+  border-radius: 30px;
+
+  width: 45%;
+  height: 65%;
+
+  background-color: #FFFFFF;
+}
+
+.iconeExcluir {
+  width: 146px;
+  height: 146px;
+}
+
+.cardExcluirCobranca p {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+
+  color: #CC7800;
+
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.cardExcluirCobranca button {
+  border: none;
+  font-family: 'Nunito';
+  font-size: 18px;
+  line-height: 25px;
+  padding: 3px 35px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.botoesExcluir {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.excluirSim {
+  color: #034A2A;
+  background-color: #ACD9C5;
+}
+
+.naoExcluir {
+  color: #AE1100;
+  background-color: #F2D6D0;
+}
