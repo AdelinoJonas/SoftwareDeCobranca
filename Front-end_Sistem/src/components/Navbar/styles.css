@@ -1,0 +1,12 @@
+.tirarLinha{
+    text-decoration: none;
+}
+
+.active {
+  border-right: 3px solid #DA0175;
+  color: #DA0175;
+}
+.active span{
+  color: #DA0175;
+}
+
