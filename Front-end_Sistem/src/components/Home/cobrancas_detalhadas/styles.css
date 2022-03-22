@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.conteiner-cobrancasDetalhadas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 4vh;
+  width: 80vw;
+}
+
+.conteiner-cobrancas {
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 23vw;
+  height: 45vh;
+}
+
+.titulo-cardDoMeio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid #EFF0F7;
+  padding-bottom: 5px;
+}
+
+.titulo-cobrancas-nome-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #3F3F55;
+  min-width: 15vw;
+  height: 5vh;
+  margin-top: 5%;
+}
+
+.numeroTotal-cobrancasVencidas,
+.numeroTotal-cobrancasPrevistas,
+.numeroTotal-cobrancasPagas {
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  width:51px;
+  height: 20px;
+  text-align: center;
+  /* margin-right: 1.5vw; */
+}
+
+.numeroTotal-cobrancasVencidas {
+  color: #971D1D;
+  background-color: #FFEFEF;
+}
+
+.numeroTotal-cobrancasPrevistas {
+  color: #C5A605;
+  background-color: #FCF6DC;
+
+}
+
+.numeroTotal-cobrancasPagas {
+  color: #1FA7AF;
+  background-color: #EEF6F6;
+}
+
+.clientes-detalhado-topicos{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 5vh;
+  border-bottom: 1px solid #EFF0F7;
+}
+
+.tableDetalhes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clientes-informacoes-detalhe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 6vh;
+  border-bottom: 1px solid #EFF0F6;
+}
+
+.clientes-detalhado-topicos-h1 {
+  color: #3F3F55;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.primeiraColuna{
+  display: flex;
+  justify-self: start;
+  padding-left: 1.5vw;
+}
+
+.clientes-informacoes-detalhe-h1 {
+  color: #6E6E85;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  min-width: 7.6vw;
+  min-height: 3vh;
+}
+
+.buttonCobrancasDetalhadas {
+  border: none;
+  font-family: 'Nunito', sans-serif;
+  color: #DA0175;
+  text-decoration-line: underline;
+  font-size: 1em;
+  cursor: pointer;
+  margin: 0.6em 0 0.4em;
+  background-color: #FFFFFF;
+  position: relative;
+  width: 10vw;
+  margin-left: 7%;
+  margin-left: 20vh;
+  margin-bottom: 10px;
+}

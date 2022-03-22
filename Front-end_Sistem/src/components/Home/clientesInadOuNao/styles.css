@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.conteinerRowCobrancas {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80vw;
+  /* height: 40vh; */
+  margin-bottom: 2vw;
+}
+
+.conteiner-clientes {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 36vw;
+  height: 45vh;
+}
+
+.titulo-clientes-modalGrande {
+  border-bottom: 1px solid #eff0f7;
+  display: flex;
+  align-items: center;
+  width: 36vw;
+}
+
+.titulo-clientes-conteiner-h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+.tituloSoma {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+.titulo-clientes-conteiner-img {
+  height: 10vh;
+  padding-top: 1vw;
+  padding-left: 2vw;
+}
+
+.titulo-cobrancas-h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.titulo-clientes-nome {
+  padding-top: 5px;
+}
+
+.titulo-clientes-numeroTotal-inadimplentes,
+.titulo-clientes-numeroTotal-adimplentes {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  margin: 0;
+  max-height: 20px;
+  margin-top: 10px;
+}
+
+.titulo-clientes-numeroTotal-inadimplentes {
+  color: #971d1d;
+  background-color: #ffefef;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.titulo-clientes-numeroTotal-adimplentes {
+  color: #1fa7af;
+  background-color: #eef6f6;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+
+.clientes-informacoes-topicos {
+  border-bottom: 1px solid #eff0f7;
+  width: 100%;
+  height: 6vh;
+  padding-left: 2vw;
+  padding-right: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.clientes-informacoes-topicos-h1 {
+  color: #3f3f55;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.topicoDate {
+  padding-left: 2vw;
+}
+
+.clientes-informacoes-lista {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.clientes-informacoes-detalheStatus {
+  display: flex;
+  align-items: center;
+  min-height: 6vh;
+  min-width: 10vw;
+  border-bottom: 1px solid #eff0f6;
+}
+
+.clientes-informacoes-detalheStatus-h1 {
+  color: #6e6e85;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.name {
+  width: 37%;
+  margin-left: 1.7vw;
+}
+
+.date {
+  width: 33%;
+  margin: 1vw;
+}
+
+.div-button-verTodos {
+  display: flex;
+  justify-content: flex-end;
+
+ 
+}
+
+.clientesInad-button{
+  border: none;
+  font-family: "Nunito", sans-serif;
+  color: #da0175;
+  text-decoration-line: underline;
+  font-size: 1em;
+  cursor: pointer;
+  margin: 0.6em 0 0.4em;
+  background-color: #ffffff;
+  position: absolute;
+  left: 58vh;
+  max-width: 5vw;
+  max-height: 5vw;
+  bottom: -29vh;
+}
+
+.clientesAdim-button{
+  border: none;
+  font-family: "Nunito", sans-serif;
+  color: #da0175;
+  text-decoration-line: underline;
+  font-size: 1em;
+  cursor: pointer;
+  margin: 0.6em 0 0.4em;
+  background-color: #ffffff;
+  position: absolute;
+  left: 144vh;
+  max-width: 5vw;
+  max-height: 5vw;
+  bottom: -29vh;
+}

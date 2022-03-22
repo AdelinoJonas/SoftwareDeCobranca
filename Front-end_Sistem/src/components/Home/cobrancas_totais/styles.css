@@ -1,0 +1,63 @@
+.conteiner-total{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 2vw;
+  margin-top: 1vw;
+  width: 80vw;
+}
+
+.cobrancas-vencidas,
+.cobrancas-pagas,
+.cobrancas-previstas {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 30px;
+  height: 15vh;
+  min-width: 24vw;
+}
+
+.cobrancas-vencidas {
+  background-color: #ffefef;
+}
+
+.cobrancas-pagas {
+  background-color: #eef7f7;
+}
+
+.cobrancas-previstas {
+  background-color: #fcf6dc;
+}
+
+.titulo-cobrancas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.titulo-cobrancas,
+.valor-cobrancas {
+  color: #3f3f55;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.valor-cobrancas {
+  font-size: 24px;
+}
+
+.conteiner-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.cobrancas-img {
+  width: 30px;
+  height: 33px;
+}

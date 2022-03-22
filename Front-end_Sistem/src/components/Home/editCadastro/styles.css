@@ -1,0 +1,157 @@
+.editCad-fundo-tela {
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+  }
+  
+  .editCad-close-icone {
+    min-width: 10px;
+    min-height: 10px;
+  }
+
+  .editCad-close-icone-button{
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 33px;
+    min-height: 15px;
+    min-width: 15px;
+    border-style: none;
+    background-color: #FFFFFF;
+  }
+
+  .editCad-modal-conteudo{
+    border-radius: 12px;
+    position: absolute;
+    background-color: white;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 500px;
+    height: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+ .editCad-conteiner-icone-aplicar{
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+ }
+
+ .editCad-form{
+   margin-top: 30px;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .editCad-conteiner-icone-aplicar-btn{
+   text-decoration: none;
+   background-color: #DA0175;
+   color: #F8F8F9;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 40px;
+   padding-right: 40px;
+   border-radius: 10px;
+   border-style: none;
+   cursor: pointer;
+ }
+
+ .editCad-close-icone-h2{
+   top: 30px;
+   position: absolute;
+   color: #343447;
+   font-family: Montserrat, sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 130%;
+ }
+
+ .editCad-conteiner-inputs{
+   display: flex;
+   flex-direction: column;
+   justify-items: center;
+   margin-bottom: 20px;
+ }
+
+ .editCad-inputsUi{
+   margin-bottom: 10px;
+ }
+
+ .editCad-conteiner-inputs-cpf-telefone{
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 10px;
+   gap: 30px;
+   justify-items: center;
+   align-items: center;
+ }
+
+ .editCad-label{
+  font-family: Nunito, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 5px;
+ }
+
+ .editCad-inputs{
+  background: #FFFFFF;
+  border: 1px solid #D0D5DD;
+  box-sizing: border-box; 
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  height: 40px;
+  min-width: 200px;
+  padding-left: 5px;
+ }
+
+ .MuiOutlinedInput-input {
+   min-width: 200px;
+ }
+
+ .editCad-nome{
+   margin-top: 50px;
+ }
+
+ .editCad-modal-confirmacao-h2 {
+  top: 330px;
+  position: absolute;
+  color: #343447;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.editCad-logoDeConfirmacao-img{
+  min-height: 90px;
+  min-width: 90px;
+  position: absolute;
+  top: 160px;
+  right: 200px;
+}
+
+.editCad-inputs-label{
+  margin-top: 10px;
+}
+
+.erro-input{
+  border-color: red;
+}
