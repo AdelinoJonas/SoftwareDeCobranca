@@ -1,0 +1,24 @@
+tr{
+    max-height: 10px;
+}
+
+.criar-cobranca {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .em-dia {
+    padding: 3px 25px;
+    border-radius: 8px;
+    color: #1FA7AF;
+    background: #EEF6F6;
+  }
+  
+  .inadimplente {
+    padding: 3px 8px;
+    border-radius: 8px;
+    color: #971D1D;
+    background: #FFEFEF;
+  }
