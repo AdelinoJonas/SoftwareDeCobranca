@@ -1,0 +1,10 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  background-color: #f8f8f9;
+}
+
+.main {
+  background-color: #f8f8f9;
+}
