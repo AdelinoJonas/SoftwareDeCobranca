@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  background: #f8f8f9;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerDados {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10vw;
+}
+
+.imgCliente {
+  width: 32px;
+  margin-right: 22px;
+}
+
+.nomeCliente {
+  display: flex;
+  margin: 3vw 0 2vw 3vw;
+}
+
+.nomeCliente-style {
+  font-family: Montserrat, sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: left;
+  color: #3f3f55;
+}
+
+.containerCobranca {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 24px;
+  margin-left: 7vw;
+  width: 80vw;
+}
+
+.conteudoCobranca {
+  width: 80vw;
+  background: #ffffff;
+  border-radius: 30px;
+  margin-bottom: 3vh;
+}
+
+.tituloCob {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 130%;
+  color: #3f3f55;
+}
+
+.subtitulo,
+.labeldescricao,
+.labelstatus,
+.labelvalor {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 50px;
+  letter-spacing: 0.005em;
+  color: #3f3f55;
+  width: 150px;
+}
+
+.labelvalor {
+  margin-left: 50px;
+}
+
+.labelstatus {
+  margin-left: 15px;
+}
+
+.labeldescricao {
+  margin-left: 15px;
+}
+
+.subtitulo1 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 50px;
+  letter-spacing: 0.005em;
+  color: #3f3f55;
+  width: 150px;
+}
+
+.tabela {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabela1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 23px;
+}
+
+.idCobranca {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* .iconesCobranca{
+    position:fixed;
+    margin-left: 950px;
+    margin-top: -370px;
+    
+}
+.img01{
+    position: fixed;
+    margin-left: 1000px;
+    margin-top: -370px;
+} */
+
+.img01 {
+  cursor: pointer;
+}
+
+.listaMap {
+  cursor: pointer;
+}
+
+.hearderCobrancasCliente {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  margin: 3vh 3vw;
+}
+
+.listaCobrancas li {
+  display: flex;
+  align-items: flex-start;
+  /* margin-left: 23PX;
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 40px;
+letter-spacing: 0.005em;
+color: #6E6E85; */
+}
+
+li {
+  list-style: none;
+}
+
+.btn-addCob {
+  cursor: pointer;
+  color: white;
+  width: 252px;
+  height: 33px;
+  background: #da0175;
+  border-radius: 10px;
+  border: none;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #f8f8f9;
+}
+
+.listaPrincipal, .listaMap-Solucao,.listaSolucao{
+  display: flex;
+  align-items: center;
+  height: 8vh;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 40px;
+  letter-spacing: 0.005em;
+  color: #6e6e85;
+  padding: 15px 30px 15px 43px;
+}
+.listaMap-Solucao span {
+  width: 150px;
+  cursor: pointer;
+  margin-left: 25px;
+}
+.iconesCobranca {
+  width: 200px;
+  margin-top: 08px;
+  display: flex;
+  justify-content: flex-end;
+}
+.img01 {
+  margin-right: 15px;
+}
+
+.listaPrincipal span {
+  width: 150px;
+  cursor: pointer;
+  margin-left: 25px;
+}
+
+.iconesCobranca {
+  width: 200px;
+  margin-top: 08px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.img01 {
+  margin-right: 15px;
+}
+
+.img01,
+.img02 {
+  cursor: pointer;
+}
+
+.divSubtitulo {
+  border-bottom: 1px solid #eff0f6;
+}
+
+.setaOrdenacaoCobrancas {
+  cursor: pointer;
+}

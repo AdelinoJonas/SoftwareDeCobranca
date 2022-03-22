@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dadosClienteContainer {
+  background-color: #FFFFFF;
+  width: 80vw;
+  border-radius: 30px;
+  margin-left: 3vw;
+}
+
+.editar {
+  margin-right: 4px;
+  width: 10.38px;
+  height: 10.38px;
+  color: #0E8750;
+}
+
+.editarCliente {
+  font-family: Nunito, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.buttonEditar {
+  all: unset;
+    box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  color: #0E8750;
+  justify-content: center;
+  align-items: center;
+  margin-top: 26px;
+  margin-right: 26px;
+
+  height: 33px;
+  width: 246px;
+  border-radius: 10px;
+  background: #F8F8F9;
+
+  border: 1px solid #DEDEE9
+}
+
+.tituloDados {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-left: 24px;
+  color: #3F3F55;
+}
+
+.dadosHeader{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.dadosCliente{
+  display: flex;
+}
+
+.requisicao{
+  color: #3F3F55;
+  font-family: Nunito, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 0;
+}
+
+.resposta{
+  color: #3F3F55;
+  font-family: Nunito, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+.primeiraResposta{
+  width: 185px;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding-right: 65px;
+  margin-left: 27px;
+}
+
+.endCliente{
+  display: flex;
+  margin: 2vh 0;
+}
+
+.hearder-cobrancas-cliente{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
