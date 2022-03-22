@@ -1,0 +1,166 @@
+.checkboxInput{
+    width: 487px;
+    height: 48px;
+     margin-top: 20px;
+    background: #F0F0F5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.checkbox{
+ margin-left: 16px;
+}
+.descricao{
+width: 485px;
+height: 88px;
+background: #FFFFFF;
+border: 1px solid #D0D5DD;
+box-sizing: border-box;
+border-radius: 8px;
+
+}
+.statusCobranca{
+    margin-top: 16px;
+}
+.nomeInput{
+    width: 485px;
+height: 44px;
+background: #FFFFFF;
+border: 1px solid #D0D5DD;
+box-sizing: border-box;
+border-radius: 8px;
+}
+.labelSpan,.labelVencimento, .labelValor{
+    font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+color: #3F3F55;
+margin-bottom: 4px;
+margin-top: 16px;
+}
+.labelValor{
+    margin-left: 24px;
+}
+.inputs{
+    display: flex;
+    flex-direction:column;
+    margin-top: 10px;
+    
+  }
+.labelSecundaria{
+    display: flex;
+    flex-direction: column;
+}
+.labelCheck{
+margin-left: 8px;    
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+
+color: #3F3F55;
+}
+.DivValorVencimento{
+    display: flex;
+    flex-direction: row;
+}
+.inputValor,.inputVencimento{
+    width: 232px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.inputValor{
+    margin-left: 24px;
+}
+.buttonSubmitCobranca{
+margin-top:60px;
+
+ display: flex;
+}
+.buttonCancela,.buttonAplicar{
+    display: flex;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    justify-content: center;
+    align-items: center;
+    color: #0E8750;
+
+    padding: 4px 81.5px;
+    background: #F8F8F9;  
+    border: 1px solid #DEDEE9;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.buttonAplicar{
+    margin-left: 24px;
+}
+button.buttonAplicar:hover,button.buttonAplicar:active{
+    color:white;
+    background-color: #DA0175;
+    cursor: pointer;
+}
+button.buttonCancela:hover,button.buttonCancela:active{
+    color:white;
+    background-color: #DA0175;
+    cursor: pointer;
+}
+
+
+.cardPrincipal{
+    margin-top: 51px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tituloHeader{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 130%;
+display: flex;
+align-items: center;
+color: #3F3F55;
+}
+.cobrancaIcone{
+    margin-right: 23px;
+}
+.fecharIcone{
+    margin-left: 144px;
+    cursor: pointer;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+    
+}
+input.labelCheck[type="checkbox"] {
+    border-radius: 50%;
+  }
+
+  .nomeInput{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;   
+    color: #3F3F55;
+  }
+  .descricao{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;   
+    color: #3F3F55;
+  }
