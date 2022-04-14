@@ -18,7 +18,7 @@ https://github.com/AdelinoJonas/SoftwareDeCobranca/tree/main/API_e_dataBase
 
 **Repositório de Frontend**:
 
-https://github.com/AdelinoJonas/SoftwareDeCobranca/tree/main/FrontEnd_sistem
+https://github.com/AdelinoJonas/SoftwareDeCobranca/tree/main/Front-end_Sistem
 
 **URL da aplicação funcionando**: 
 
