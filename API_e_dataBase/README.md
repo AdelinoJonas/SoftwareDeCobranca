@@ -14,11 +14,11 @@ No fork de vocês, favor alterar este README para adicionar os links corresponde
 
 **Repositório de Backend**: 
 
-https://github.com/AdelinoJonas/back-integral-m05-desafio-t04
+https://github.com/AdelinoJonas/SoftwareDeCobranca/tree/main/API_e_dataBase
 
 **Repositório de Frontend**:
 
-https://github.com/AdelinoJonas/front-integral-m05-desafio-t04
+https://github.com/AdelinoJonas/SoftwareDeCobranca/tree/main/FrontEnd_sistem
 
 **URL da aplicação funcionando**: 
 
